@@ -96,7 +96,7 @@ ggplot(compare_model_melt_pca, aes(x=model, y=value))+
   geom_col()+
   facet_grid(metric~., scales="free")
 
-########################using Large matric#########################
+########################using Large matrix#########################
 
 iphone_large<-read.csv("sentiment analysis/LargeMatrix.csv")
 summary(iphone_large)
